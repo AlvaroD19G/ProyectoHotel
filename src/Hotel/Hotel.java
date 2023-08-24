@@ -36,6 +36,7 @@ public class Hotel extends javax.swing.JFrame {
         regis = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         admin = new javax.swing.JMenu();
+        meservicios = new javax.swing.JMenuItem();
         reserv = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -73,6 +74,12 @@ public class Hotel extends javax.swing.JFrame {
         admin.setText("Administración");
         admin.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         admin.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
+        meservicios.setFont(new java.awt.Font("Sitka Text", 1, 12)); // NOI18N
+        meservicios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/services (2).png"))); // NOI18N
+        meservicios.setText("Servicios");
+        admin.add(meservicios);
+
         jMenuBar1.add(admin);
 
         reserv.setText("Reservas");
@@ -142,6 +149,7 @@ public class Hotel extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem meservicios;
     private javax.swing.JMenu regis;
     private javax.swing.JMenu reserv;
     // End of variables declaration//GEN-END:variables
